@@ -1,7 +1,8 @@
 # YOLOv3-Based-Face-Detection-Tracking
 This is a robot project for television live. System will tracking the host's face, making the face in the middle of the screen. Main algorithm is Yolov3, trained on  WIDER FACE and tested on FDDB benchmark. Extremely fine performance!
 
-# ***SEE THE VIDEO***:https://v.youku.com/v_show/id_XMzc1OTk5MTg3Mg==.html?spm=a2hzp.8244740.0.0
+# ***SEE THE VIDEO***:
+https://v.youku.com/v_show/id_XMzc1OTk5MTg3Mg==.html?spm=a2hzp.8244740.0.0
 
 # Thanks to ***https://github.com/experiencor/keras-yolo3***
 I used part of this project, changed some codes of it. 
