@@ -9,18 +9,17 @@ I used part of this project, changed some codes of it.
 ## Environmnet Requirements:
 I creadted this project on my DL desktop, its characteristics are as following:
   * |name|details|
-  * |:---|:---|
-  * |system|linux16.04/windows10|
-  * |platform|anaconda2 or 3|
-  * |GPU|GTX1080TI|
-  * |CUDA|9.0|
-  * |CUDNN|5.0|
-  * |tensoflow-gpu|1.8.3|
+  * |system| linux16.04/windows10|
+  * |platform| anaconda2 or 3|
+  * |GPU| GTX1080TI|
+  * |CUDA| 9.0|
+  * |CUDNN| 5.0|
+  * |tensoflow-gpu| 1.8.3|
   
 Some other dependecies you need for DL may occur some version conflicts, just Google it!
 
 ## Here comes the code
-First, download my tensorflow graph file from here:
+First, download my tensorflow graph file from here: https://pan.baidu.com/s/1FRxVacEraMQkIQnDYxnO-w
 
 Change the .pb file path called in the file ***loadtfpb.py***, then you can run it and see the magic! Another code ***load_tf_pb-control-robot.py*** is the file I used control my robot. You can isgore that. 
 
