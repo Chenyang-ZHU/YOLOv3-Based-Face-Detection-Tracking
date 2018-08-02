@@ -1,7 +1,7 @@
 # YOLOv3-Based-Face-Detection-Tracking
 This is a robot project for television live. System will tracking the host's face, making the face in the middle of the screen. Main algorithm is Yolov3, trained on  WIDER FACE and tested on FDDB benchmark. Extremely fine performance!
 
-#***SEE THE VIDEO***:https://v.youku.com/v_show/id_XMzc1OTk5MTg3Mg==.html?spm=a2hzp.8244740.0.0
+# ***SEE THE VIDEO***:https://v.youku.com/v_show/id_XMzc1OTk5MTg3Mg==.html?spm=a2hzp.8244740.0.0
 
 # Thanks to ***https://github.com/experiencor/keras-yolo3***
 I used part of this project, changed some codes of it. 
@@ -31,8 +31,11 @@ Change the .pb file path called in the file ***loadtfpb.py***, then you can run 
 ![test3](https://github.com/Chenyang-ZHU/YOLOv3-Based-Face-Detection-Tracking/blob/master/github_photo/test2_66.jpg)
 
 ## Compare with other detector:
+I also found a MTCNN detector. In comparison, YOLOv3 is more robust. In the following, the first image is MTCNN test result and the second one is YOLOv3 test. 
 ![test3](https://github.com/Chenyang-ZHU/YOLOv3-Based-Face-Detection-Tracking/blob/master/github_photo/mtcnn_test.png)
 ![test3](https://github.com/Chenyang-ZHU/YOLOv3-Based-Face-Detection-Tracking/blob/master/github_photo/yolo3_test.png)
+
+Trained the models with 10 epoches on Wider-Face becnhmark and test them with FDDB benchmark. Here is the ROC curve. You can judge by yourself!
 ![test3](https://github.com/Chenyang-ZHU/YOLOv3-Based-Face-Detection-Tracking/blob/master/github_photo/roc.png)
 
 ***Have Fun!***
